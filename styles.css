@@ -2,8 +2,10 @@ body {
     font-family: 'Georgia', serif;
     background-color: #2c2a4a;
     color: #fff;
+    /* Margin 0 e padding 0 remove as margens e o preenchimento padrão do navegador */
     margin: 0;
     padding: 0;
+    cursor: url(pata.cur) 16 16, auto;
 }
 
 header {
@@ -12,19 +14,23 @@ header {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
+    /* Usei border para colocar uma borda inferior de 4px de espessura, na cor dourada (linha abaixo do cabeçalho) */
     border-bottom: 4px solid #e5c07b;
 }
 
+/* lista sem estilo */
 nav ul {
     list-style: none;
     padding: 0;
 }
 
+/* Faz com que os itens da lista sejam exibidos na horizontal e, adicionei margem de 15px */
 nav ul li {
     display: inline;
     margin: 0 15px;
 }
 
+/* Estiliza os links dentro da navegação, foi definido a cor dourada, ajustei o tamanho para 18px */
 nav ul li a {
     color: #e5c07b;
     text-decoration: none;
@@ -59,6 +65,7 @@ h2 {
     width: 200px;
 }
 
+/* Estilo do Rodapé */
 footer {
     background-color: #3e3b67;
     padding: 20px;
